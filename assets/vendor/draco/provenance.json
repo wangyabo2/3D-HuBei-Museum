@@ -1,0 +1,17 @@
+[
+  {
+    "file": "draco_decoder.js",
+    "url": "https://www.gstatic.com/draco/versioned/decoders/1.5.7/draco_decoder.js",
+    "sha256": "5656ccaf1f50300e3c318e15c3313430483f3866cd9c25f22fbf9d6f229e6728"
+  },
+  {
+    "file": "draco_decoder.wasm",
+    "url": "https://www.gstatic.com/draco/versioned/decoders/1.5.7/draco_decoder.wasm",
+    "sha256": "2516a4e43526d71787bf2f678f951329f7f858f8f15f42d4bc9e370b31a0da3a"
+  },
+  {
+    "file": "draco_wasm_wrapper.js",
+    "url": "https://www.gstatic.com/draco/versioned/decoders/1.5.7/draco_wasm_wrapper.js",
+    "sha256": "e8049906ef3f8f75d3456c22a3f31bfdfe5b5b5bd09ccdec613b9e9a49d554d8"
+  }
+]
