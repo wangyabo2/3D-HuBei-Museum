@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#162320">
+  <meta name="description" content="十一件荆楚文物的数字复原展示：360°旋转、细节缩放、实物参考与可追溯来源。">
+  <title>荆楚 · 十一器｜数字文物展馆</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#exhibit">跳到文物展台</a>
+  <header class="masthead">
+    <a class="brand" href="#" aria-label="荆楚十一器首页"><span class="seal" aria-hidden="true">楚</span><span>荆楚 · 十一器<small>JINGCHU / DIGITAL COLLECTION</small></span></a>
+    <nav aria-label="主导航"><a href="#collection">馆藏索引 <span>11</span></a><a href="#method">资料与方法 ↗</a></nav>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="intro-title"><div><p class="eyebrow">OBJECTS, OBSERVED ANEW · 数字复原展示</p><h1 id="intro-title">换一个角度，<em>看见荆楚。</em></h1></div><p class="intro-note">从青铜礼乐到木牍墨迹。<br>旋转十一件器物，让细节与依据同时可见。</p></section>
+    <section id="exhibit" class="exhibit" aria-label="文物交互展台">
+      <div class="stage" id="stage">
+        <div class="stage-top"><span><i class="live-dot"></i> 交互展台 / 360°</span><span id="stage-index">07 — 11</span></div>
+        <div id="viewer-mount"></div>
+        <div id="loading" class="loading" role="status" aria-live="polite"><span id="loading-text">正在准备展台…</span><progress id="load-progress" max="1" value="0" aria-label="模型加载进度"></progress></div>
+        <div id="load-error" class="load-error" hidden><p id="error-message">模型暂时未能加载。</p><button id="retry" class="primary">重新加载</button></div>
+        <div class="stage-bottom"><span class="gesture-hint">拖动旋转 · 滚轮缩放 · 双指平移</span><button id="expand" class="icon-button" aria-label="全屏查看模型" title="全屏查看">⛶</button></div>
+      </div>
+      <aside class="artifact-panel" aria-labelledby="artifact-title">
+        <div class="artifact-heading"><span class="eyebrow" id="artifact-code">A07 / 元</span><div class="next-controls"><button id="previous" class="icon-button" aria-label="上一件文物">←</button><button id="next" class="icon-button" aria-label="下一件文物">→</button></div></div>
+        <p class="artifact-kind" id="artifact-kind">陶瓷 · 绘画</p><h2 id="artifact-title">元青花四爱图梅瓶</h2><p id="artifact-description" class="artifact-description">转动梅瓶，依次细看四组人物开光与肩腹曲线。</p>
+        <div class="tags"><span>数字复原 · 非扫描</span><span id="version">v4</span><span id="model-size"></span></div>
+        <div class="view-controls" role="group" aria-label="观察模型"><button id="rotate" aria-pressed="false">↻ 自动旋转</button><button id="reset">↺ 归位</button><button id="back">背面</button><button id="top">俯视</button></div>
+      </aside>
+    </section>
+    <section id="collection" class="collection" aria-labelledby="collection-title"><div class="section-heading"><div><p class="eyebrow">THE COLLECTION</p><h2 id="collection-title">十一件，逐一细看。</h2></div><div class="filter-wrap"><label for="search" class="sr-only">搜索文物</label><input id="search" type="search" placeholder="搜索名称、材质或时代…" autocomplete="off"><label for="category" class="sr-only">按材质筛选</label><select id="category"><option value="">全部材质</option><option>青铜</option><option>竹木</option><option>漆木</option><option>化石</option><option>陶瓷</option><option>玉石</option></select></div></div><p id="result-count" class="sr-only" aria-live="polite"></p><div id="artifact-grid" class="artifact-grid"></div><p id="empty-state" hidden>没有找到相符的文物。试试其他名称或材质。</p></section>
+    <section id="method" class="method" aria-labelledby="method-title"><div><p class="eyebrow">EVIDENCE & PROCESS</p><h2 id="method-title">看见器物，<br>也看见依据。</h2></div><div class="method-copy"><p>这是一个以公开资料为依据的自主数字复原项目，收录十一件作品的当前版本。它们可全方位观察，但各部位的资料完整程度不同；“可旋转”不代表每一面都已被实物照片证实。</p><div class="method-columns"><div><h3>01 / 资料可追溯</h3><p>优先采用博物馆、学术机构与正规媒体资料。保留原始分辨率、署名、原文链接和校验记录，未用 AI 增清替代证据。</p></div><div><h3>02 / 复原有边界</h3><p>照片投影、结构近似和待补部位均逐件说明。本站非博物馆官方网站，模型不用于科学测量或替代扫描数据。</p></div></div><p class="rights">参考图像及模型所含照片纹理的权利归原权利人，来源公开不等于开放授权。再次发布或商用前，请核实相应使用许可。<a href="RIGHTS.md">图像与模型权利说明 ↗</a></p></div></section>
+  </main>
+  <footer><span>荆楚 · 十一器 <small>JINGCHU / DIGITAL COLLECTION</small></span><p>11 件作品 · 更新于 2026.11.20</p><a href="#exhibit">回到展台 ↑</a></footer>
+  <dialog id="image-dialog" aria-labelledby="image-title"><div class="dialog-bar"><h2 id="image-title">参考图片</h2><button id="close-dialog" class="icon-button" aria-label="关闭参考图片">✕</button></div><img id="full-image" alt=""><p id="image-caption"></p><a id="image-source" target="_blank" rel="noopener">查看来源原文 ↗</a><a id="original-image" target="_blank" rel="noopener">打开原始图片 ↗</a></dialog>
+  <noscript><div class="no-js">交互展台需要启用 JavaScript。仍可查看 <a href="collection.json">文物清单</a>与<a href="provenance.json">来源记录</a>。</div></noscript>
+</body>
+</html>

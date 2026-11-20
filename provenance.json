@@ -1,0 +1,763 @@
+{
+  "exported": "2026-11-20",
+  "blender": "5.2.1 LTS",
+  "modelViewer": "4.4.0",
+  "draco": "1.5.7",
+  "rule": "保持原图原始像素；缩略图单独生成。研究图、实拍、模型近似分别标注。",
+  "artifacts": [
+    {
+      "id": "A01",
+      "name": "曾侯乙编钟",
+      "kind": "青铜 · 礼乐",
+      "period": "战国",
+      "description": "三层钟架与六十五件编钟，组成可从四周观察的礼乐空间。",
+      "version": "v3",
+      "model": "assets/models/A01.glb",
+      "poster": "assets/posters/A01.jpg",
+      "bytes": 15018528,
+      "sha256": "4257966cc11955ac03c34a237458813e21924cc9c0e797251477fbfa8d44b25b",
+      "note": "钟体、铭文与铸纹仍为近似，尚未逐钟测量。",
+      "reconstruction": true,
+      "references": [
+        {
+          "image": "assets/references/A01_01.jpg",
+          "thumbnail": "assets/references/A01_01_thumb.jpg",
+          "source": "https://www.hbww.org.cn/p/6876.html",
+          "authority": "湖北省博物馆",
+          "category": "实物照片",
+          "caption": "实物形态参考；请结合来源页核对。",
+          "width": 800,
+          "height": 511,
+          "sha256": "2116b8dccc73c3488b9b42bf305548c143679dbfb60d4e24c23228d3947d16da",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        }
+      ],
+      "sources": [
+        {
+          "authority": "湖北省博物馆",
+          "url": "https://www.hbww.org.cn/p/6876.html",
+          "use": "形态、文字或表面参考；以条目中的复原说明为准。"
+        }
+      ],
+      "sourceBlend": {
+        "filename": "A01_曾侯乙编钟_v3.blend",
+        "sha256": "31cccfae770d4304d96465aed8af93667c93ea97e6a7f59e80606ea764ccc5e7"
+      },
+      "exportNotes": "保留现有造型并应用修改器；曲线转网格，合并展示网格。程序化材质转为PBR代表色，照片贴图保留。网页光照与Blender渲染可能有差异。"
+    },
+    {
+      "id": "A02",
+      "name": "越王勾践剑",
+      "kind": "青铜 · 兵器",
+      "period": "春秋晚期",
+      "description": "沿中脊、薄刃与剑首，观察一柄青铜剑的截面和尺度。",
+      "version": "v3",
+      "model": "assets/models/A02.glb",
+      "poster": "assets/posters/A02.jpg",
+      "bytes": 2485852,
+      "sha256": "5c4a318922d1705d5c5af3b9c63b7a4cf7dd20524fd51b105e994a2844624d7d",
+      "note": "正面照片投影存在近似；背面及剑格精细纹饰待补。目标全长约55.6厘米，模型包围高约55.34厘米。",
+      "reconstruction": true,
+      "references": [
+        {
+          "image": "assets/references/A02_01.jpg",
+          "thumbnail": "assets/references/A02_01_thumb.jpg",
+          "source": "https://www.wuhan.video/hubeiprovincialmuseum",
+          "authority": "武汉视频网",
+          "category": "实物照片",
+          "caption": "实物形态参考；请结合来源页核对。",
+          "width": 692,
+          "height": 923,
+          "sha256": "808d4764f46dda40a7960845c0f515b9ca08b10ff00b262089f70fa149ac048a",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        },
+        {
+          "image": "assets/references/A02_02.jpg",
+          "thumbnail": "assets/references/A02_02_thumb.jpg",
+          "source": "https://www.wuhan.video/hubeiprovincialmuseum",
+          "authority": "武汉视频网",
+          "category": "实物照片",
+          "caption": "实物形态参考；请结合来源页核对。",
+          "width": 692,
+          "height": 923,
+          "sha256": "695e2229be3627c8b8fe2466a670063886309ca4510277ee2b32bf12615d0b3d",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        },
+        {
+          "image": "assets/references/A02_03.jpg",
+          "thumbnail": "assets/references/A02_03_thumb.jpg",
+          "source": "https://www.hbww.org.cn/p/6894.html",
+          "authority": "湖北省博物馆",
+          "category": "实物照片",
+          "caption": "实物形态参考；请结合来源页核对。",
+          "width": 599,
+          "height": 800,
+          "sha256": "4a33630d7adc52fad05dd6a6df5f8a361b533e3ff12b003a0c7fbf7b1b4f7f16",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        },
+        {
+          "image": "assets/references/A02_04.jpg",
+          "thumbnail": "assets/references/A02_04_thumb.jpg",
+          "source": "https://www.wuhan.video/hubeiprovincialmuseum",
+          "authority": "武汉视频网",
+          "category": "实物照片",
+          "caption": "实物形态参考；请结合来源页核对。",
+          "width": 1600,
+          "height": 2134,
+          "sha256": "d5486dc12cdb3eb45f1141adc4047ccf965b245388c446d09521a00b81af0a07",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        },
+        {
+          "image": "assets/references/A02_05.jpg",
+          "thumbnail": "assets/references/A02_05_thumb.jpg",
+          "source": "https://www.wuhan.video/hubeiprovincialmuseum",
+          "authority": "武汉视频网",
+          "category": "实物照片",
+          "caption": "实物形态参考；请结合来源页核对。",
+          "width": 1600,
+          "height": 2133,
+          "sha256": "dc750156557497150272ccea2326be6f40e615048db68b46733279142987db20",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        }
+      ],
+      "sources": [
+        {
+          "authority": "武汉视频网",
+          "url": "https://www.wuhan.video/hubeiprovincialmuseum",
+          "use": "形态、文字或表面参考；以条目中的复原说明为准。"
+        },
+        {
+          "authority": "湖北省博物馆",
+          "url": "https://www.hbww.org.cn/p/6894.html",
+          "use": "形态、文字或表面参考；以条目中的复原说明为准。"
+        }
+      ],
+      "sourceBlend": {
+        "filename": "A02_越王勾践剑_v3.blend",
+        "sha256": "b31e4abed11dcf364f74605a9754804ba8371240324859d86ec66a5411a1e77a"
+      },
+      "exportNotes": "保留现有造型并应用修改器；曲线转网格，合并展示网格。程序化材质转为PBR代表色，照片贴图保留。网页光照与Blender渲染可能有差异。"
+    },
+    {
+      "id": "A03",
+      "name": "曾侯乙尊盘",
+      "kind": "青铜 · 礼器",
+      "period": "战国",
+      "description": "从盘沿的透雕、锁扣与支足，阅读尊与盘的层叠关系。",
+      "version": "v4",
+      "model": "assets/models/A03.glb",
+      "poster": "assets/posters/A03.jpg",
+      "bytes": 3982320,
+      "sha256": "cfde45d403ad3e42da9cf0a7d6f46ce05dd401cc6cd0964c41329477aa2972d2",
+      "note": "保留8段盘沿、19只U形锁扣的结构研究。连环曲线是蟠螭透雕的近似表达，局部照片投影不等于完整雕刻；并非原始CT模型。",
+      "reconstruction": true,
+      "references": [
+        {
+          "image": "assets/references/A03_01.jpg",
+          "thumbnail": "assets/references/A03_01_thumb.jpg",
+          "source": "https://www.hbww.org.cn/p/6875.html",
+          "authority": "湖北省博物馆",
+          "category": "实物照片",
+          "caption": "实物形态参考；请结合来源页核对。",
+          "width": 640,
+          "height": 438,
+          "sha256": "b36ab2a70c65f6db9cae7c0101c3ecf63392112d213e0455e201180e637305ec",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        },
+        {
+          "image": "assets/references/A03_02.png",
+          "thumbnail": "assets/references/A03_02_thumb.jpg",
+          "source": "https://www.dpm.org.cn/ydyl/detail/370890.html",
+          "authority": "故宫博物院／湖北省博物馆",
+          "category": "CT研究展示帧",
+          "caption": "分层、8段盘沿、19只U形锁扣与支撑拓扑；视频480×300，不是原始CT网格。",
+          "width": 480,
+          "height": 300,
+          "sha256": "59af07833d2059b6ee3356cdbef63b72a48e34950a76e0436c6d568268435127",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        },
+        {
+          "image": "assets/references/A03_03.png",
+          "thumbnail": "assets/references/A03_03_thumb.jpg",
+          "source": "https://www.dpm.org.cn/ydyl/detail/370890.html",
+          "authority": "故宫博物院／湖北省博物馆",
+          "category": "CT研究展示帧",
+          "caption": "分层、8段盘沿、19只U形锁扣与支撑拓扑；视频480×300，不是原始CT网格。",
+          "width": 480,
+          "height": 300,
+          "sha256": "1094570a1aad0a7b1d201b7907710cf8b7d653b475b613efe69bf9163d299236",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        },
+        {
+          "image": "assets/references/A03_04.png",
+          "thumbnail": "assets/references/A03_04_thumb.jpg",
+          "source": "https://www.dpm.org.cn/ydyl/detail/370890.html",
+          "authority": "故宫博物院／湖北省博物馆",
+          "category": "CT研究展示帧",
+          "caption": "分层、8段盘沿、19只U形锁扣与支撑拓扑；视频480×300，不是原始CT网格。",
+          "width": 480,
+          "height": 300,
+          "sha256": "89ef0fddc42d99f0ec6c9e2f10f2a12c7fe4d5c0740e9ef72e98e06c1b62938a",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        },
+        {
+          "image": "assets/references/A03_05.png",
+          "thumbnail": "assets/references/A03_05_thumb.jpg",
+          "source": "https://www.dpm.org.cn/ydyl/detail/370890.html",
+          "authority": "故宫博物院／湖北省博物馆",
+          "category": "CT研究展示帧",
+          "caption": "分层、8段盘沿、19只U形锁扣与支撑拓扑；视频480×300，不是原始CT网格。",
+          "width": 480,
+          "height": 300,
+          "sha256": "f0f0c5b75a6df2c71dd672ee55004952331455f063a613d519d98d79b375448c",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        },
+        {
+          "image": "assets/references/A03_06.jpg",
+          "thumbnail": "assets/references/A03_06_thumb.jpg",
+          "source": "https://artsandculture.google.com/asset/bronze-zun-and-pan-of-zeng-hou-yi-pan-part/IwFCRYrEnu5Crw?hl=en",
+          "authority": "湖北省博物馆在Google艺术与文化发布的馆藏条目",
+          "category": "实物照片",
+          "caption": "1200×1123盘部近照；用于支足与纹饰对照及前侧局部投影。",
+          "width": 1200,
+          "height": 1123,
+          "sha256": "ffff767fa28de853f16f120bef724fa106b5a0b36b9ef93ac4a06bde12105f13",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        }
+      ],
+      "sources": [
+        {
+          "authority": "故宫博物院／湖北省博物馆",
+          "url": "https://www.dpm.org.cn/ydyl/detail/370890.html",
+          "use": "分层、8段盘沿、19只U形锁扣与支撑拓扑；视频480×300，不是原始CT网格。"
+        },
+        {
+          "authority": "湖北省博物馆在Google艺术与文化发布的馆藏条目",
+          "url": "https://artsandculture.google.com/asset/bronze-zun-and-pan-of-zeng-hou-yi-pan-part/IwFCRYrEnu5Crw?hl=en",
+          "use": "1200×1123盘部近照；用于支足与纹饰对照及前侧局部投影。"
+        }
+      ],
+      "sourceBlend": {
+        "filename": "A03_曾侯乙尊盘_v4.blend",
+        "sha256": "1cfd2acf9e1160f129695844378f52bb913d029a92bf12fb77fd37543689d1e6"
+      },
+      "exportNotes": "保留现有造型并应用修改器；曲线转网格，合并展示网格。程序化材质转为PBR代表色，照片贴图保留。网页光照与Blender渲染可能有差异。"
+    },
+    {
+      "id": "A04",
+      "name": "云梦睡虎地秦简",
+      "kind": "竹木 · 文书",
+      "period": "秦",
+      "description": "五支独立竹简与真实墨迹样本，让文字回到薄薄的竹片上。",
+      "version": "v3",
+      "model": "assets/models/A04.glb",
+      "poster": "assets/posters/A04.jpg",
+      "bytes": 5448364,
+      "sha256": "f6f3d88c109047a86fc7835a59071a0e921ec38369eaf0bb44d01db35ed16073",
+      "note": "五支实拍样本不代表全部秦简的出土排列；宽度和厚度仍有估计。",
+      "reconstruction": true,
+      "references": [
+        {
+          "image": "assets/references/A04_01.png",
+          "thumbnail": "assets/references/A04_01_thumb.jpg",
+          "source": "https://k.sina.cn/article_1644114654_61ff32de02001s5wq.html",
+          "authority": "媒体参考（见原文署名）",
+          "category": "实物照片",
+          "caption": "实物形态参考；请结合来源页核对。",
+          "width": 3116,
+          "height": 3084,
+          "sha256": "522d838b9a66e371d07567ab430e9e7a2a29293f1b9b08a9d1528b8aa94b6613",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        },
+        {
+          "image": "assets/references/A04_02.jpg",
+          "thumbnail": "assets/references/A04_02_thumb.jpg",
+          "source": "https://news.hubeidaily.net/pc/c_2579876.html",
+          "authority": "媒体参考（见原文署名）",
+          "category": "实物照片",
+          "caption": "实物形态参考；请结合来源页核对。",
+          "width": 1200,
+          "height": 675,
+          "sha256": "b089db96847c1577316cefeec9798ab804a9a333ecbff4d2e8377bfb30d5d32f",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        },
+        {
+          "image": "assets/references/A04_03.jpg",
+          "thumbnail": "assets/references/A04_03_thumb.jpg",
+          "source": "https://www.hbww.org.cn/p/6892.html",
+          "authority": "湖北省博物馆",
+          "category": "实物照片",
+          "caption": "实物形态参考；请结合来源页核对。",
+          "width": 531,
+          "height": 800,
+          "sha256": "d1a2479824f2e8c206fac2dad9f888ac0e1a6c9092450adc409c3a0a8fbc68f4",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        }
+      ],
+      "sources": [
+        {
+          "authority": "媒体参考（见原文署名）",
+          "url": "https://k.sina.cn/article_1644114654_61ff32de02001s5wq.html",
+          "use": "形态、文字或表面参考；以条目中的复原说明为准。"
+        },
+        {
+          "authority": "媒体参考（见原文署名）",
+          "url": "https://news.hubeidaily.net/pc/c_2579876.html",
+          "use": "形态、文字或表面参考；以条目中的复原说明为准。"
+        },
+        {
+          "authority": "湖北省博物馆",
+          "url": "https://www.hbww.org.cn/p/6892.html",
+          "use": "形态、文字或表面参考；以条目中的复原说明为准。"
+        }
+      ],
+      "sourceBlend": {
+        "filename": "A04_云梦睡虎地秦简_v3.blend",
+        "sha256": "9c543da4e48404b0f4819e2e305890171e8751d905f30a81db8db6b22babb197"
+      },
+      "exportNotes": "保留现有造型并应用修改器；曲线转网格，合并展示网格。程序化材质转为PBR代表色，照片贴图保留。网页光照与Blender渲染可能有差异。"
+    },
+    {
+      "id": "A05",
+      "name": "虎座鸟架鼓",
+      "kind": "漆木 · 礼乐",
+      "period": "战国",
+      "description": "从双鸟、蹲虎到残缺鼓圈，保留现状照片里的轮廓与空隙。",
+      "version": "v3",
+      "model": "assets/models/A05.glb",
+      "poster": "assets/posters/A05.jpg",
+      "bytes": 1899076,
+      "sha256": "7c12c694b58561c5e13483475e7ea8d9c3c1d5170540482199d17015becbee78",
+      "note": "以正面实拍轮廓为依据的体积稿。侧厚、背面及部分残损为近似，旋转后可见贴图与侧面的差别。",
+      "reconstruction": true,
+      "references": [
+        {
+          "image": "assets/references/A05_01.png",
+          "thumbnail": "assets/references/A05_01_thumb.jpg",
+          "source": "https://www.hbww.org.cn/p/6883.html",
+          "authority": "湖北省博物馆",
+          "category": "实物照片",
+          "caption": "实物形态参考；请结合来源页核对。",
+          "width": 600,
+          "height": 800,
+          "sha256": "8f216caf49c4419db204e6df9ec6a3837140e5251d7896a04fcc473591a2ffa2",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        },
+        {
+          "image": "assets/references/A05_02.png",
+          "thumbnail": "assets/references/A05_02_thumb.jpg",
+          "source": "https://www.chnmus.net/zyww/discovery/details.html?id=1025187512772580108",
+          "authority": "河南博物院",
+          "category": "实物图版",
+          "caption": "实物形态参考；请结合来源页核对。",
+          "width": 591,
+          "height": 866,
+          "sha256": "d85f1bb5d2b078759a2a1eb4961e9b34fbeef64617601d01958e6d8c4d5dc261",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        }
+      ],
+      "sources": [
+        {
+          "authority": "湖北省博物馆",
+          "url": "https://www.hbww.org.cn/p/6883.html",
+          "use": "形态、文字或表面参考；以条目中的复原说明为准。"
+        },
+        {
+          "authority": "河南博物院",
+          "url": "https://www.chnmus.net/zyww/discovery/details.html?id=1025187512772580108",
+          "use": "形态、文字或表面参考；以条目中的复原说明为准。"
+        }
+      ],
+      "sourceBlend": {
+        "filename": "A05_虎座鸟架鼓_v3.blend",
+        "sha256": "72d8594d8026828d33bf427bb0a92101854d18decd7907e4320ddc486b906fbf"
+      },
+      "exportNotes": "保留现有造型并应用修改器；曲线转网格，合并展示网格。程序化材质转为PBR代表色，照片贴图保留。网页光照与Blender渲染可能有差异。"
+    },
+    {
+      "id": "A06",
+      "name": "郧县人头骨化石",
+      "kind": "化石 · 古人类",
+      "period": "旧石器时代",
+      "description": "通过眼眶、鼻腔与受压颅顶，探索头骨形态研究稿。",
+      "version": "v3",
+      "model": "assets/models/A06.glb",
+      "poster": "assets/posters/A06.jpg",
+      "bytes": 1640104,
+      "sha256": "b0ffb33b63aa77334ed5f20275f388415d51e4494a50e5c2889e9c2aecc713a0",
+      "note": "形态研究稿，非CT扫描或科学解剖复原。对应标本编号、尺度、压扁程度与背面尚未确认。参考中的1、2号化石现状与数字复原图分开标注。",
+      "reconstruction": true,
+      "references": [
+        {
+          "image": "assets/references/A06_01.jpg",
+          "thumbnail": "assets/references/A06_01_thumb.jpg",
+          "source": "https://whwb.cjn.cn/html/2024-12/27/content_152970_1686547.htm",
+          "authority": "媒体参考（见原文署名）",
+          "category": "实物照片",
+          "caption": "实物形态参考；请结合来源页核对。",
+          "width": 400,
+          "height": 533,
+          "sha256": "c3ce70e1cbf5d4cac8c9d96d929f8a8b2ee6511a49d64d128c1846377f79b0d5",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        },
+        {
+          "image": "assets/references/A06_02.jpg",
+          "thumbnail": "assets/references/A06_02_thumb.jpg",
+          "source": "https://www.hbww.org.cn/p/6864.html",
+          "authority": "湖北省博物馆",
+          "category": "实物照片",
+          "caption": "实物形态参考；请结合来源页核对。",
+          "width": 640,
+          "height": 526,
+          "sha256": "ab97ccfea0d546c94bb62c42be9639f846a9ec18ba299ae45ba2643f6211db48",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        },
+        {
+          "image": "assets/references/A06_03.png",
+          "thumbnail": "assets/references/A06_03_thumb.jpg",
+          "source": "https://www1.xinhuanet.com/politics/20241226/46121c56b9254c5ea4784be74b6262d6/c.html",
+          "authority": "新华社记者肖艺九摄，2024-12-26",
+          "category": "实物照片",
+          "caption": "1014×676展厅现状照片，图注明确1号在右、2号在左；补参考资料，本轮未据此重塑头骨。",
+          "width": 1014,
+          "height": 676,
+          "sha256": "9694eb712f83b1b04f790f3b6d932419e7b4b7801b667fc802b45badabd1a16f",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        },
+        {
+          "image": "assets/references/A06_04.png",
+          "thumbnail": "assets/references/A06_04_thumb.jpg",
+          "source": "https://www.cas.cn/syky/202509/t20250926_5084091.shtml",
+          "authority": "中国科学院，古脊椎动物与古人类研究所",
+          "category": "研究复原图",
+          "caption": "600×163为2号头骨数字复原过程图，属于研究复原图，不当作化石现状，不用于贴图。",
+          "width": 600,
+          "height": 163,
+          "sha256": "03544642a79710c36602492cdf9bef2508e986ff39989abd44f96d398000bca4",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        }
+      ],
+      "sources": [
+        {
+          "authority": "新华社记者肖艺九摄，2024-12-26",
+          "url": "https://www1.xinhuanet.com/politics/20241226/46121c56b9254c5ea4784be74b6262d6/c.html",
+          "use": "1014×676展厅现状照片，图注明确1号在右、2号在左；补参考资料，本轮未据此重塑头骨。"
+        },
+        {
+          "authority": "中国科学院，古脊椎动物与古人类研究所",
+          "url": "https://www.cas.cn/syky/202509/t20250926_5084091.shtml",
+          "use": "600×163为2号头骨数字复原过程图，属于研究复原图，不当作化石现状，不用于贴图。"
+        }
+      ],
+      "sourceBlend": {
+        "filename": "A06_郧县人头骨化石_v3.blend",
+        "sha256": "a0fb3cd633c8a4c2d10dcc9f073b2dff1a98ae1f3de77ba3c66c91b8f1b67473"
+      },
+      "exportNotes": "保留现有造型并应用修改器；曲线转网格，合并展示网格。程序化材质转为PBR代表色，照片贴图保留。网页光照与Blender渲染可能有差异。"
+    },
+    {
+      "id": "A07",
+      "name": "元青花四爱图梅瓶",
+      "kind": "陶瓷 · 绘画",
+      "period": "元",
+      "description": "转动梅瓶，依次细看四组人物开光与肩腹曲线。",
+      "version": "v4",
+      "model": "assets/models/A07.glb",
+      "poster": "assets/posters/A07.jpg",
+      "bytes": 3047892,
+      "sha256": "30c4731a6b28d10e4ceeca8cab23e92d6d9738017a908becee6859685ec97eac",
+      "note": "人物图取自故宫官网图版55所载湖北省博物馆本件。四幅画身份已核对，环向相邻次序尚未证实；部分肩、足与背面暂留素釉。",
+      "reconstruction": true,
+      "references": [
+        {
+          "image": "assets/references/A07_01.jpg",
+          "thumbnail": "assets/references/A07_01_thumb.jpg",
+          "source": "https://www.hbww.org.cn/p/6896.html",
+          "authority": "湖北省博物馆",
+          "category": "实物照片",
+          "caption": "实物形态参考；请结合来源页核对。",
+          "width": 543,
+          "height": 800,
+          "sha256": "f5f1510aafb28c3f8aa9f93cb2a7bd4fae92bcb3586801af24d226026e5cf5f9",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        },
+        {
+          "image": "assets/references/A07_02.jpeg",
+          "thumbnail": "assets/references/A07_02_thumb.jpg",
+          "source": "https://www.dpm.org.cn/Uploads/File/2020/04/22/u5ea01965b7ec8.pdf",
+          "authority": "故宫博物院官网学术图版，第95页图55",
+          "category": "学术图版",
+          "caption": "图55明确为湖北省博物馆藏：744×1344全器及994×995四开光合图；同页图56武汉博物馆藏未使用。",
+          "width": 994,
+          "height": 995,
+          "sha256": "e023c865baf370ec96dfb70bc25299ac5d346467fce34eacf12d2c5582b493cc",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        },
+        {
+          "image": "assets/references/A07_03.jpeg",
+          "thumbnail": "assets/references/A07_03_thumb.jpg",
+          "source": "https://www.dpm.org.cn/Uploads/File/2020/04/22/u5ea01965b7ec8.pdf",
+          "authority": "故宫博物院官网学术图版，第95页图55",
+          "category": "学术图版",
+          "caption": "图55明确为湖北省博物馆藏：744×1344全器及994×995四开光合图；同页图56武汉博物馆藏未使用。",
+          "width": 744,
+          "height": 1344,
+          "sha256": "5b8335d3a873f6ed2b03d88ba23bcbeb0b3f52d818d16a19bd33af1d712b029a",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        }
+      ],
+      "sources": [
+        {
+          "authority": "故宫博物院官网学术图版，第95页图55",
+          "url": "https://www.dpm.org.cn/Uploads/File/2020/04/22/u5ea01965b7ec8.pdf",
+          "use": "图55明确为湖北省博物馆藏：744×1344全器及994×995四开光合图；同页图56武汉博物馆藏未使用。"
+        },
+        {
+          "authority": "央视网《国宝档案》2012-03-02",
+          "url": "https://tv.cctv.com/2012/03/02/VIDE1355505022869218.shtml",
+          "use": "核对王羲之、周敦颐、陶渊明、林和靖四幅图身份；节目后段明确比较武汉馆藏，未将其混入。采用高清度更高的故宫图版作材质。"
+        }
+      ],
+      "sourceBlend": {
+        "filename": "A07_元青花四爱图梅瓶_v4.blend",
+        "sha256": "9f07ef7970220c941922662defafecd95b2996b494482a2c1aea411cb958a3e0"
+      },
+      "exportNotes": "保留现有造型并应用修改器；曲线转网格，合并展示网格。程序化材质转为PBR代表色，照片贴图保留。网页光照与Blender渲染可能有差异。"
+    },
+    {
+      "id": "A08",
+      "name": "彩绘人物车马出行图",
+      "kind": "漆木 · 绘画",
+      "period": "战国",
+      "description": "车马出行图环绕深盖外壁，盖顶保留凤鸟与蝶形纹依据。",
+      "version": "v4",
+      "model": "assets/models/A08.glb",
+      "poster": "assets/posters/A08.jpg",
+      "bytes": 783084,
+      "sha256": "ce3beee1885df3aa309f567849fd3fda8fa2f2d419044710b9b77f8bcd2fb172",
+      "note": "以高10.8厘米、直径27.9厘米校正器形。盖外壁展开图仅640×32像素；背面和低清细节待补，不能视作完整高清表面。",
+      "reconstruction": true,
+      "references": [
+        {
+          "image": "assets/references/A08_01.jpg",
+          "thumbnail": "assets/references/A08_01_thumb.jpg",
+          "source": "https://www.hbww.org.cn/p/6893.html",
+          "authority": "湖北省博物馆",
+          "category": "实物照片",
+          "caption": "实物形态参考；请结合来源页核对。",
+          "width": 640,
+          "height": 360,
+          "sha256": "c4d98021ed5c1a3d409d42eb8351bd59f2d1869e9c4f98a69d0992440dbc75b7",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        },
+        {
+          "image": "assets/references/A08_02.jpg",
+          "thumbnail": "assets/references/A08_02_thumb.jpg",
+          "source": "https://www.hbww.org.cn/p/6893.html",
+          "authority": "湖北省博物馆",
+          "category": "实物照片",
+          "caption": "实物形态参考；请结合来源页核对。",
+          "width": 640,
+          "height": 32,
+          "sha256": "2faf4894035921b08c0253d716ec2eb2628e251fab31c313a766c2f6e5ab40a4",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        },
+        {
+          "image": "assets/references/A08_03.jpeg",
+          "thumbnail": "assets/references/A08_03_thumb.jpg",
+          "source": "https://paper.people.com.cn/rmrb/pc/attachement/202603/21/b51a7da1-43b5-4d91-8ff9-4f75031dbe67.pdf",
+          "authority": "人民日报2026-03-21第8版，湖北省博物馆供图",
+          "category": "实物照片",
+          "caption": "核实高10.8厘米、直径27.9厘米、出行图在盖外壁；388×303嵌入全器原图补盖顶凤鸟、蝶形纹与下层纹饰。",
+          "width": 388,
+          "height": 303,
+          "sha256": "934f9db37c1ad7a8ae4b6bf19d455587f676774585dd96f4e3050d4232bfbc3d",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        }
+      ],
+      "sources": [
+        {
+          "authority": "人民日报2026-03-21第8版，湖北省博物馆供图",
+          "url": "https://paper.people.com.cn/rmrb/pc/attachement/202603/21/b51a7da1-43b5-4d91-8ff9-4f75031dbe67.pdf",
+          "use": "核实高10.8厘米、直径27.9厘米、出行图在盖外壁；388×303嵌入全器原图补盖顶凤鸟、蝶形纹与下层纹饰。"
+        }
+      ],
+      "sourceBlend": {
+        "filename": "A08_彩绘人物车马出行图_v4.blend",
+        "sha256": "9833d498eb416958a6dcba96595839f260924baac21da0f452abbaf93a8f8dda"
+      },
+      "exportNotes": "保留现有造型并应用修改器；曲线转网格，合并展示网格。程序化材质转为PBR代表色，照片贴图保留。网页光照与Blender渲染可能有差异。"
+    },
+    {
+      "id": "A09",
+      "name": "石家河玉人像",
+      "kind": "玉石 · 造像",
+      "period": "新石器时代",
+      "description": "以平直冠部、长方脸和浅刻线，观察玉面像的正面结构。",
+      "version": "v3",
+      "model": "assets/models/A09.glb",
+      "poster": "assets/posters/A09.jpg",
+      "bytes": 159968,
+      "sha256": "90c201cb2d72c77c72dc3c9a10f92925dcb12317202e5619f7521eee6641765b",
+      "note": "侧厚、背面待补。沿用模型约12.29厘米高度，未得到可靠实测尺寸，不作为尺寸依据。",
+      "reconstruction": true,
+      "references": [
+        {
+          "image": "assets/references/A09_01.jpg",
+          "thumbnail": "assets/references/A09_01_thumb.jpg",
+          "source": "https://www.hbww.org.cn/p/6865.html",
+          "authority": "湖北省博物馆",
+          "category": "实物照片",
+          "caption": "实物形态参考；请结合来源页核对。",
+          "width": 640,
+          "height": 551,
+          "sha256": "b272a1073f6d77d2dd9cffc1a224840960687361c0963dec835a145af79630d2",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        }
+      ],
+      "sources": [
+        {
+          "authority": "湖北省博物馆",
+          "url": "https://www.hbww.org.cn/p/6865.html",
+          "use": "形态、文字或表面参考；以条目中的复原说明为准。"
+        }
+      ],
+      "sourceBlend": {
+        "filename": "A09_石家河玉人像_v3.blend",
+        "sha256": "95a82c331490903d9a0b1dfafacc7d41d6afe4f4b4857deaf97ef4c47e223203"
+      },
+      "exportNotes": "保留现有造型并应用修改器；曲线转网格，合并展示网格。程序化材质转为PBR代表色，照片贴图保留。网页光照与Blender渲染可能有差异。"
+    },
+    {
+      "id": "A10",
+      "name": "崇阳铜鼓",
+      "kind": "青铜 · 礼乐",
+      "period": "商",
+      "description": "横置鼓腔、高方足与马鞍形冠，构成可穿透观察的结构。",
+      "version": "v4",
+      "model": "assets/models/A10.glb",
+      "poster": "assets/posters/A10.jpg",
+      "bytes": 1707692,
+      "sha256": "34a1a48b32dc953fbd77cccfb426ec66a55db54e74d6261db98161668682d1b5",
+      "note": "正面纹饰参考中国国家博物馆展览照片；背面仍待资料。鼓钉排列是建模采样，不宣称实物准确数量。高约75.5厘米。",
+      "reconstruction": true,
+      "references": [
+        {
+          "image": "assets/references/A10_01.jpg",
+          "thumbnail": "assets/references/A10_01_thumb.jpg",
+          "source": "https://www.chinaservicesinfo.com/s/202309/05/WS64f6cf8f498ed2d7b7e9a2db/the-earliest-bronze-drum-in-china.html",
+          "authority": "媒体参考（见原文署名）",
+          "category": "实物照片",
+          "caption": "实物形态参考；请结合来源页核对。",
+          "width": 700,
+          "height": 600,
+          "sha256": "4c10c6543c88ee5417d884527e2353550361de904427f95397802a1d79c5f185",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        },
+        {
+          "image": "assets/references/A10_02.jpg",
+          "thumbnail": "assets/references/A10_02_thumb.jpg",
+          "source": "https://www.hbww.org.cn/p/6868.html",
+          "authority": "湖北省博物馆",
+          "category": "实物照片",
+          "caption": "实物形态参考；请结合来源页核对。",
+          "width": 506,
+          "height": 800,
+          "sha256": "9767bbb53d2de4385abce520fc8300661d0f3191613477d439c79699ca9963aa",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        },
+        {
+          "image": "assets/references/A10_03.jpg",
+          "thumbnail": "assets/references/A10_03_thumb.jpg",
+          "source": "https://www.chnmuseum.cn/zl/zlhg/201812/t20181220_32361.shtml",
+          "authority": "中国国家博物馆《江汉汤汤——湖北出土商周文物展》",
+          "category": "实物照片",
+          "caption": "602×800照片，条目明确为1977年湖北崇阳白霓出土、湖北省博物馆藏；补真实云雷和兽面纹。",
+          "width": 602,
+          "height": 800,
+          "sha256": "c5cfd74439f3c8d4d4f6d0412a80cc9bec41e0fd57135803c8a2b8665ab463cf",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        }
+      ],
+      "sources": [
+        {
+          "authority": "中国国家博物馆《江汉汤汤——湖北出土商周文物展》",
+          "url": "https://www.chnmuseum.cn/zl/zlhg/201812/t20181220_32361.shtml",
+          "use": "602×800照片，条目明确为1977年湖北崇阳白霓出土、湖北省博物馆藏；补真实云雷和兽面纹。"
+        }
+      ],
+      "sourceBlend": {
+        "filename": "A10_崇阳铜鼓_v4.blend",
+        "sha256": "960d166137a928679c68c7eb0f6e3c79cb1709e9a5c470da485e904a45b3b2b4"
+      },
+      "exportNotes": "保留现有造型并应用修改器；曲线转网格，合并展示网格。程序化材质转为PBR代表色，照片贴图保留。网页光照与Blender渲染可能有差异。"
+    },
+    {
+      "id": "A11",
+      "name": "黑夫木牍",
+      "kind": "竹木 · 文书",
+      "period": "秦",
+      "description": "翻转一方薄木牍，对照正反两面的墨迹、劈裂与残边。",
+      "version": "v3",
+      "model": "assets/models/A11.glb",
+      "poster": "assets/posters/A11.jpg",
+      "bytes": 243436,
+      "sha256": "873bd06bef6193cb6570cab57d8aba2c501f6a2d53c1d105bfb630a943dc9b11",
+      "note": "正反墨迹来自同件标注照片，投影有近似；侧厚暂定3.5毫米，复杂裂缝未逐条贯穿建模。",
+      "reconstruction": true,
+      "references": [
+        {
+          "image": "assets/references/A11_01.jpg",
+          "thumbnail": "assets/references/A11_01_thumb.jpg",
+          "source": "https://ishare.ifeng.com/c/s/v002eOvLnT6Qe4le7Cpej0gwBsDt6id9L42TkLH7tgTWXOo__",
+          "authority": "媒体参考（见原文署名）",
+          "category": "实物照片",
+          "caption": "实物形态参考；请结合来源页核对。",
+          "width": 1080,
+          "height": 1626,
+          "sha256": "334f72c8fa2ec46f29f86fb9cc6eccaa6ad1a9be2ffe55da1dfd2b3d0fc83b09",
+          "rights": "来源未明确开放许可，图片权利归原权利人；此处保留署名与原文链接。"
+        }
+      ],
+      "sources": [
+        {
+          "authority": "媒体参考（见原文署名）",
+          "url": "https://ishare.ifeng.com/c/s/v002eOvLnT6Qe4le7Cpej0gwBsDt6id9L42TkLH7tgTWXOo__",
+          "use": "形态、文字或表面参考；以条目中的复原说明为准。"
+        }
+      ],
+      "sourceBlend": {
+        "filename": "A11_黑夫木牍_v3.blend",
+        "sha256": "f826ca494bfe87c3e87c85a3e1ca24bb6f154a3678762cdcf685af17b586321b"
+      },
+      "exportNotes": "保留现有造型并应用修改器；曲线转网格，合并展示网格。程序化材质转为PBR代表色，照片贴图保留。网页光照与Blender渲染可能有差异。"
+    }
+  ],
+  "excluded": [
+    {
+      "source": "湖北民族宗教事务委员会转载“荆楚瑰宝”",
+      "url": "https://mzw.hubei.gov.cn/ztzl/jcfy/jcxm/202501/t20250115_5503921.shtml",
+      "reason": "玉人像长袍立像、双手等描述与本件馆藏面像不符，不采用其9.6厘米尺寸。"
+    },
+    {
+      "source": "省博官网350×300缩略图",
+      "reason": "鸟架鼓和梅瓶仅重复既有角度，分辨率更低，不充作新增高清或背面依据。"
+    },
+    {
+      "source": "人民日报嵌入图2081×77",
+      "reason": "核对为报纸页脚，非文物展开图；未使用。"
+    },
+    {
+      "source": "国博页面初筛52×64图",
+      "reason": "网站图标误入候选，已改用正文明确链接的大图，未使用图标。"
+    },
+    {
+      "source": "中科院512×416场景复原插画",
+      "reason": "为古人类生活场景复原，不是头骨实拍，未用于模型。"
+    },
+    {
+      "source": "故宫图版56／央视后段武汉博物馆梅瓶",
+      "reason": "不同馆藏的另一件同名器，人物、树木和侍童有差异，明确排除。"
+    }
+  ]
+}
