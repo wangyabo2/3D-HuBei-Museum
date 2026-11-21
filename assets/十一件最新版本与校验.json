@@ -1,0 +1,229 @@
+[
+  {
+    "id": "A01",
+    "file": "A01_曾侯乙编钟_v3.blend",
+    "status": "沿用v3，未重复修改",
+    "bytes": 12204850,
+    "sha256": "31cccfae770d4304d96465aed8af93667c93ea97e6a7f59e80606ea764ccc5e7",
+    "objects_including_studio_and_references": 494,
+    "images": [
+      {
+        "name": "codex-clipboard-1a62afad-8587-4212-9b01-82c3e60b6aed.png",
+        "packed": true
+      },
+      {
+        "name": "codex-clipboard-7a3ec169-0a7e-4e36-b32a-6d4c688c9501.png",
+        "packed": true
+      },
+      {
+        "name": "codex-clipboard-a4aeb0e1-b274-4136-b4b3-5864835716b6.png",
+        "packed": true
+      },
+      {
+        "name": "codex-clipboard-b139d5d2-fc07-4cae-8c28-0ea8c122f65d.png",
+        "packed": true
+      },
+      {
+        "name": "codex-clipboard-e1c0ed60-3524-4292-ad59-45fab9415e78.png",
+        "packed": true
+      },
+      {
+        "name": "codex-clipboard-fa99b4bf-59a1-4d95-b587-3a860aaf25a0.png",
+        "packed": true
+      },
+      {
+        "name": "han_revision_sky.png",
+        "packed": true
+      },
+      {
+        "name": "lacquer_finish.png",
+        "packed": true
+      },
+      {
+        "name": "porcelain_finish_detail.png",
+        "packed": true
+      },
+      {
+        "name": "qin_tianlu_ink_mask.png",
+        "packed": true
+      },
+      {
+        "name": "v06_mural.png",
+        "packed": true
+      }
+    ],
+    "structure_readable": true,
+    "render_nonblank": true
+  },
+  {
+    "id": "A02",
+    "file": "A02_越王勾践剑_v3.blend",
+    "status": "沿用v3，未重复修改",
+    "bytes": 1747330,
+    "sha256": "b31e4abed11dcf364f74605a9754804ba8371240324859d86ec66a5411a1e77a",
+    "objects_including_studio_and_references": 28,
+    "images": [
+      {
+        "name": "A02_dc75015655.jpg",
+        "packed": true
+      }
+    ],
+    "structure_readable": true,
+    "render_nonblank": true
+  },
+  {
+    "id": "A03",
+    "file": "A03_曾侯乙尊盘_v4.blend",
+    "status": "本轮MCP修改",
+    "bytes": 1279961,
+    "sha256": "1cfd2acf9e1160f129695844378f52bb913d029a92bf12fb77fd37543689d1e6",
+    "objects_including_studio_and_references": 1498,
+    "images": [
+      {
+        "name": "A03_b36ab2a70c.jpg",
+        "packed": true
+      },
+      {
+        "name": "A03_CT_010.png",
+        "packed": true
+      },
+      {
+        "name": "A03_省博GAC_盘局部.jpg",
+        "packed": true
+      }
+    ],
+    "structure_readable": true,
+    "render_nonblank": true
+  },
+  {
+    "id": "A04",
+    "file": "A04_云梦睡虎地秦简_v3.blend",
+    "status": "沿用v3，未重复修改",
+    "bytes": 5475720,
+    "sha256": "9c543da4e48404b0f4819e2e305890171e8751d905f30a81db8db6b22babb197",
+    "objects_including_studio_and_references": 10,
+    "images": [
+      {
+        "name": "A04_522d838b9a.png",
+        "packed": true
+      }
+    ],
+    "structure_readable": true,
+    "render_nonblank": true
+  },
+  {
+    "id": "A05",
+    "file": "A05_虎座鸟架鼓_v3.blend",
+    "status": "沿用v3，未重复修改",
+    "bytes": 575513,
+    "sha256": "72d8594d8026828d33bf427bb0a92101854d18decd7907e4320ddc486b906fbf",
+    "objects_including_studio_and_references": 51,
+    "images": [
+      {
+        "name": "A05_8f216caf49.png",
+        "packed": true
+      }
+    ],
+    "structure_readable": true,
+    "render_nonblank": true
+  },
+  {
+    "id": "A06",
+    "file": "A06_郧县人头骨化石_v3.blend",
+    "status": "沿用v3，未重复修改",
+    "bytes": 2140532,
+    "sha256": "a0fb3cd633c8a4c2d10dcc9f073b2dff1a98ae1f3de77ba3c66c91b8f1b67473",
+    "objects_including_studio_and_references": 6,
+    "images": [],
+    "structure_readable": true,
+    "render_nonblank": true
+  },
+  {
+    "id": "A07",
+    "file": "A07_元青花四爱图梅瓶_v4.blend",
+    "status": "本轮MCP修改",
+    "bytes": 2469260,
+    "sha256": "9f07ef7970220c941922662defafecd95b2996b494482a2c1aea411cb958a3e0",
+    "objects_including_studio_and_references": 6,
+    "images": [
+      {
+        "name": "A07_故宫图版_p19_0.jpeg",
+        "packed": true
+      },
+      {
+        "name": "A07_故宫图版_p19_2.jpeg",
+        "packed": true
+      }
+    ],
+    "structure_readable": true,
+    "render_nonblank": true
+  },
+  {
+    "id": "A08",
+    "file": "A08_彩绘人物车马出行图_v4.blend",
+    "status": "本轮MCP修改",
+    "bytes": 377652,
+    "sha256": "9833d498eb416958a6dcba96595839f260924baac21da0f452abbaf93a8f8dda",
+    "objects_including_studio_and_references": 13,
+    "images": [
+      {
+        "name": "A08_2faf489403.jpg",
+        "packed": true
+      },
+      {
+        "name": "A08_人民日报嵌入原图_8.jpeg",
+        "packed": true
+      }
+    ],
+    "structure_readable": true,
+    "render_nonblank": true
+  },
+  {
+    "id": "A09",
+    "file": "A09_石家河玉人像_v3.blend",
+    "status": "沿用v3，未重复修改",
+    "bytes": 177378,
+    "sha256": "95a82c331490903d9a0b1dfafacc7d41d6afe4f4b4857deaf97ef4c47e223203",
+    "objects_including_studio_and_references": 12,
+    "images": [
+      {
+        "name": "A09_石家河玉人像.jpg",
+        "packed": true
+      }
+    ],
+    "structure_readable": true,
+    "render_nonblank": true
+  },
+  {
+    "id": "A10",
+    "file": "A10_崇阳铜鼓_v4.blend",
+    "status": "本轮MCP修改",
+    "bytes": 594740,
+    "sha256": "960d166137a928679c68c7eb0f6e3c79cb1709e9a5c470da485e904a45b3b2b4",
+    "objects_including_studio_and_references": 17,
+    "images": [
+      {
+        "name": "A10_国家博物馆_兽面纹青铜鼓.jpg",
+        "packed": true
+      }
+    ],
+    "structure_readable": true,
+    "render_nonblank": true
+  },
+  {
+    "id": "A11",
+    "file": "A11_黑夫木牍_v3.blend",
+    "status": "沿用v3，未重复修改",
+    "bytes": 276309,
+    "sha256": "f826ca494bfe87c3e87c85a3e1ca24bb6f154a3678762cdcf685af17b586321b",
+    "objects_including_studio_and_references": 6,
+    "images": [
+      {
+        "name": "A11_334f72c8fa.jpg",
+        "packed": true
+      }
+    ],
+    "structure_readable": true,
+    "render_nonblank": true
+  }
+]

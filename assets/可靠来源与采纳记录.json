@@ -1,0 +1,209 @@
+{
+  "sources": [
+    {
+      "id": "A03_DPM",
+      "authority": "故宫博物院／湖北省博物馆",
+      "page": "https://www.dpm.org.cn/ydyl/detail/370890.html",
+      "use": "分层、8段盘沿、19只U形锁扣与支撑拓扑；视频480×300，不是原始CT网格。",
+      "downloaded_files": [
+        {
+          "file": "A03_故宫_尊盘CT研究展示.mp4",
+          "bytes": 2468713,
+          "sha256": "30f05de496531dcebd000574fd6b57ba60214587f56c3c69f68464d7f3ee94b0"
+        },
+        {
+          "file": "A03_CT_006.png",
+          "bytes": 100515,
+          "sha256": "59af07833d2059b6ee3356cdbef63b72a48e34950a76e0436c6d568268435127",
+          "size": [
+            480,
+            300
+          ]
+        },
+        {
+          "file": "A03_CT_010.png",
+          "bytes": 114076,
+          "sha256": "1094570a1aad0a7b1d201b7907710cf8b7d653b475b613efe69bf9163d299236",
+          "size": [
+            480,
+            300
+          ]
+        },
+        {
+          "file": "A03_CT_018.png",
+          "bytes": 102683,
+          "sha256": "89ef0fddc42d99f0ec6c9e2f10f2a12c7fe4d5c0740e9ef72e98e06c1b62938a",
+          "size": [
+            480,
+            300
+          ]
+        },
+        {
+          "file": "A03_CT_027.png",
+          "bytes": 95041,
+          "sha256": "f0f0c5b75a6df2c71dd672ee55004952331455f063a613d519d98d79b375448c",
+          "size": [
+            480,
+            300
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A03_GAC",
+      "authority": "湖北省博物馆在Google艺术与文化发布的馆藏条目",
+      "page": "https://artsandculture.google.com/asset/bronze-zun-and-pan-of-zeng-hou-yi-pan-part/IwFCRYrEnu5Crw?hl=en",
+      "use": "1200×1123盘部近照；用于支足与纹饰对照及前侧局部投影。",
+      "downloaded_files": [
+        {
+          "file": "A03_省博GAC_盘局部.jpg",
+          "bytes": 218372,
+          "sha256": "ffff767fa28de853f16f120bef724fa106b5a0b36b9ef93ac4a06bde12105f13",
+          "size": [
+            1200,
+            1123
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A07_DPM",
+      "authority": "故宫博物院官网学术图版，第95页图55",
+      "page": "https://www.dpm.org.cn/Uploads/File/2020/04/22/u5ea01965b7ec8.pdf",
+      "use": "图55明确为湖北省博物馆藏：744×1344全器及994×995四开光合图；同页图56武汉博物馆藏未使用。",
+      "downloaded_files": [
+        {
+          "file": "A07_故宫研究_四爱梅瓶图版.pdf",
+          "bytes": 47377812,
+          "sha256": "27d38a4cfa3103974c9eb75bad1ca85cce7c8c92bd8192421ce69ff5e1e1384f"
+        },
+        {
+          "file": "A07_故宫图版_p19_0.jpeg",
+          "bytes": 1144394,
+          "sha256": "e023c865baf370ec96dfb70bc25299ac5d346467fce34eacf12d2c5582b493cc",
+          "size": [
+            994,
+            995
+          ]
+        },
+        {
+          "file": "A07_故宫图版_p19_2.jpeg",
+          "bytes": 957176,
+          "sha256": "5b8335d3a873f6ed2b03d88ba23bcbeb0b3f52d818d16a19bd33af1d712b029a",
+          "size": [
+            744,
+            1344
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A07_CCTV",
+      "authority": "央视网《国宝档案》2012-03-02",
+      "page": "https://tv.cctv.com/2012/03/02/VIDE1355505022869218.shtml",
+      "use": "核对王羲之、周敦颐、陶渊明、林和靖四幅图身份；节目后段明确比较武汉馆藏，未将其混入。采用高清度更高的故宫图版作材质。",
+      "downloaded_files": []
+    },
+    {
+      "id": "A08_PEOPLE",
+      "authority": "人民日报2026-03-21第8版，湖北省博物馆供图",
+      "page": "https://paper.people.com.cn/rmrb/pc/attachement/202603/21/b51a7da1-43b5-4d91-8ff9-4f75031dbe67.pdf",
+      "use": "核实高10.8厘米、直径27.9厘米、出行图在盖外壁；388×303嵌入全器原图补盖顶凤鸟、蝶形纹与下层纹饰。",
+      "downloaded_files": [
+        {
+          "file": "A08_人民日报_20260321.pdf",
+          "bytes": 1307505,
+          "sha256": "13e0e915b89ccb56e5208223ebea560bc569b3a73b24fec760a89109c62f818a"
+        },
+        {
+          "file": "A08_人民日报嵌入原图_8.jpeg",
+          "bytes": 141809,
+          "sha256": "934f9db37c1ad7a8ae4b6bf19d455587f676774585dd96f4e3050d4232bfbc3d",
+          "size": [
+            388,
+            303
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A10_NMC",
+      "authority": "中国国家博物馆《江汉汤汤——湖北出土商周文物展》",
+      "page": "https://www.chnmuseum.cn/zl/zlhg/201812/t20181220_32361.shtml",
+      "use": "602×800照片，条目明确为1977年湖北崇阳白霓出土、湖北省博物馆藏；补真实云雷和兽面纹。",
+      "downloaded_files": [
+        {
+          "file": "A10_国家博物馆_兽面纹青铜鼓.jpg",
+          "bytes": 102269,
+          "sha256": "c5cfd74439f3c8d4d4f6d0412a80cc9bec41e0fd57135803c8a2b8665ab463cf",
+          "size": [
+            602,
+            800
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A06_XH",
+      "authority": "新华社记者肖艺九摄，2024-12-26",
+      "page": "https://www1.xinhuanet.com/politics/20241226/46121c56b9254c5ea4784be74b6262d6/c.html",
+      "use": "1014×676展厅现状照片，图注明确1号在右、2号在左；补参考资料，本轮未据此重塑头骨。",
+      "downloaded_files": [
+        {
+          "file": "A06_XH_9694eb712f.png",
+          "bytes": 410538,
+          "sha256": "9694eb712f83b1b04f790f3b6d932419e7b4b7801b667fc802b45badabd1a16f",
+          "size": [
+            1014,
+            676
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A06_CAS",
+      "authority": "中国科学院，古脊椎动物与古人类研究所",
+      "page": "https://www.cas.cn/syky/202509/t20250926_5084091.shtml",
+      "use": "600×163为2号头骨数字复原过程图，属于研究复原图，不当作化石现状，不用于贴图。",
+      "downloaded_files": [
+        {
+          "file": "A06_CAS_03544642a7.png",
+          "bytes": 101050,
+          "sha256": "03544642a79710c36602492cdf9bef2508e986ff39989abd44f96d398000bca4",
+          "size": [
+            600,
+            163
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "source": "湖北民族宗教事务委员会转载“荆楚瑰宝”",
+      "url": "https://mzw.hubei.gov.cn/ztzl/jcfy/jcxm/202501/t20250115_5503921.shtml",
+      "reason": "玉人像长袍立像、双手等描述与本件馆藏面像不符，不采用其9.6厘米尺寸。"
+    },
+    {
+      "source": "省博官网350×300缩略图",
+      "reason": "鸟架鼓和梅瓶仅重复既有角度，分辨率更低，不充作新增高清或背面依据。"
+    },
+    {
+      "source": "人民日报嵌入图2081×77",
+      "reason": "核对为报纸页脚，非文物展开图；未使用。"
+    },
+    {
+      "source": "国博页面初筛52×64图",
+      "reason": "网站图标误入候选，已改用正文明确链接的大图，未使用图标。"
+    },
+    {
+      "source": "中科院512×416场景复原插画",
+      "reason": "为古人类生活场景复原，不是头骨实拍，未用于模型。"
+    },
+    {
+      "source": "故宫图版56／央视后段武汉博物馆梅瓶",
+      "reason": "不同馆藏的另一件同名器，人物、树木和侍童有差异，明确排除。"
+    }
+  ],
+  "rule": "原始下载与PDF内嵌图保留原始像素，不做AI增清；研究复原、现状实拍、模型近似分别标记。"
+}
